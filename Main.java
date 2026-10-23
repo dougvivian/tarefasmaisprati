@@ -14,6 +14,8 @@ public class Main {
         biblioteca.cadastrarItem(livro3);
         biblioteca.cadastrarItem(revista1);
         biblioteca.cadastrarItem(revista2);
+        // DVD novo, funcionou sem mudar nada na Biblioteca :)
+        biblioteca.cadastrarItem(new Dvd(6, "Matrix"));
 
         // cadastrando os usuarios
         Aluno aluno = new Aluno("Joao");
